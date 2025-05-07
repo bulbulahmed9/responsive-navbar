@@ -37,6 +37,12 @@ This is a **beginner project** of mine, created for **educational purposes**. It
 
 ---
 
+## 🌐 Live URL
+
+You can view the live demo here: [Live Demo](https://bulbulahmed9.github.io/responsive-navbar/)
+
+---
+
 ## 📄 License
 
 Feel free to use or modify this project for learning or your own practice.
