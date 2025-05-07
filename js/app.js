@@ -1,37 +1,38 @@
 const navSlide = () => {
-    const burger = document.querySelector('.burger')
-    const nav = document.querySelector('.nav-links')
+  const burger = document.querySelector(".burger");
+  const nav = document.querySelector(".nav-links");
 
-    const navLinks = document.querySelectorAll('.nav-links li')
+  const navLinks = document.querySelectorAll(".nav-links li");
 
-    // toggle nav
-    const toggleNav = () => {
-        // Toggle nav
-        nav.classList.toggle('nav-active')
+  // toggle nav
+  const toggleNav = () => {
+    // Toggle nav
+    nav.classList.toggle("nav-active");
 
-        // animate burger
-        burger.classList.toggle('toggle');
+    // animate burger
+    burger.classList.toggle("toggle");
 
-        // animate links
-        navLinks.forEach((link, index) => {
-            if (link.style.animation) {
-                link.style.animation = ''
-            } else {
-                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0}s`
-            }
-        })
-    }
-
-
-    burger.addEventListener('click', () => {
-        toggleNav();
-    })
-
+    // animate links
     navLinks.forEach((link, index) => {
-        link.addEventListener('click', () => {
-            toggleNav()
-        })
-    })
-}
+      if (link.style.animation) {
+        link.style.animation = "";
+      } else {
+        link.style.animation = `navLinkFade 0.5s ease forwards ${
+          index / 7 + 0
+        }s`;
+      }
+    });
+  };
 
-navSlide()
+  burger.addEventListener("click", () => {
+    toggleNav();
+  });
+
+  navLinks.forEach((link, index) => {
+    link.addEventListener("click", () => {
+      toggleNav();
+    });
+  });
+};
+
+navSlide();
