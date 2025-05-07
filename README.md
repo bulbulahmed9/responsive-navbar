@@ -1,9 +1,42 @@
 # Responsive Navbar
 
-This is a beginner project of mine, built using HTML, CSS, and JavaScript for educational purposes. It’s a simple responsive navigation bar that works on both desktop and mobile screens. The project helped me practice building a basic navbar, making it responsive, and adding simple JavaScript interactivity like a toggle menu.
+A simple responsive navbar built using **HTML**, **CSS**, and **JavaScript**.
 
-Technologies used: HTML, CSS, JavaScript.
+---
 
-To try it out, clone the repository and open the `index.html` file in your browser.
+## 📖 About
 
-Feel free to use or modify this project for your own learning or practice.
+This is a **beginner project** of mine, created for **educational purposes**. It helped me practice and understand how to:
+
+- Build a basic navigation bar
+- Make it responsive for different screen sizes
+- Add simple interactivity with JavaScript
+
+---
+
+## 💻 Features
+
+- Responsive layout for mobile and desktop
+- Toggle menu on small screens
+- Minimal and clean design
+
+---
+
+## 📂 Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository
+2. Open `index.html` in your browser.
+
+---
+
+## 📄 License
+
+Feel free to use or modify this project for learning or your own practice.
